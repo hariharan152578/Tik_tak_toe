@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background: linear-gradient(to right,#7633cd,#0b12d6);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    padding: 20px; 
+}
+.game_contant
+{
+    background: #2d1d41;
+    width: 20vcap;
+    height: 70vcap;
+    display: grid;
+    justify-content: center;
+    border-radius: 20px;
+    /* position: relative; */
+    padding: 20px;
+}
+.contant_button{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.cell {
+    background: #0bbfd6;
+    color: #2d1d41;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.cell:hover{
+    background: #fff;
+}
+.title
+{   
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    font-size: 2em;
+}
+.button 
+{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 10px; 
+    padding: 10px;
+}
+.button button{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+.button button:hover{
+   background: #0bbfd6;
+}
+#result {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 10px;
+}
